@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Entry point* 
+* main - Entry point 
 * Description: 'A c programme printing an exact sentence'
 * Return: When it's 0 it is is a success
 */
