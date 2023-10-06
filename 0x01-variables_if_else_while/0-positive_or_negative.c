@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
  * main - Entry point
  * Description: 'A c programme printing if a number is positive, negative or 0'
