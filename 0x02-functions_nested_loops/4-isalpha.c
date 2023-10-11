@@ -3,14 +3,14 @@
 /**
  * _isalpha - checks if character is a letter in lowercase or uppercase
  *
- * @x: takes input from other functions.
+ * @c: takes input from other functions.
  *
- * Return: 1 is x if true else 0
+ * Return: 1 is c if true else 0
  */
 
-int _isalpha(int x)
+int _isalpha(int c)
 {
-	if (x >= 97 && x <= 122 && x >= 65 && x >= 90)
+	if (c >= 97 && c <= 122 && c >= 65 && c >= 90)
 		return (1);
 	return (0);
 }
