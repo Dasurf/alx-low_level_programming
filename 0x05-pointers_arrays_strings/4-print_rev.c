@@ -6,7 +6,7 @@
  * @s: string parameter input
  *
  * Return: Nothing
-i */
+ */
 
 void print_rev(char *s)
 {
