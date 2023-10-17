@@ -6,7 +6,7 @@
  * @s: string parameter input
  *
  * Return: Nothing
- */
+i */
 
 void print_rev(char *s)
 {
@@ -19,7 +19,7 @@ void print_rev(char *s)
 		for (--index; index >= 0; --index)
 		{
 			_putchar(s[index]);
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
