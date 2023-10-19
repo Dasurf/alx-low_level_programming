@@ -11,7 +11,7 @@
  *        positive integer if the stoping character
  *                in @str1 was greater than the stopping
  *                character in @str2
-*/
+ */
 
 int _strcmp(char *str1, char *str2)
 {
