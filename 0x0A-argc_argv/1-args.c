@@ -14,7 +14,15 @@
 int main(int argc, char *argv[])
 {
 	(void)argv;
-	printf("%d\n", argc);
+
+	int num;
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		num = i;
+	}
+	printf("%d\n", num);
 
 	return (0);
 }
