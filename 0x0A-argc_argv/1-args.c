@@ -11,16 +11,15 @@
  * Return: Always 0 (Success)
 */
 
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((unused)) *argv[])
 {
-	(void)argv;
-
 	int num;
-	int i;
+	int i = 0;
 
-	for (i = 0; i < argc; i++)
+	while (i < argc)
 	{
 		num = i;
+        i++;
 	}
 	printf("%d\n", num);
 
