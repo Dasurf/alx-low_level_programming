@@ -42,7 +42,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 
 	arr = malloc(nmemb * size);
-	if (p == NULL)
+	if (arr == NULL)
 		return (NULL);
 
 	_memset(arr, 0, nmemb * size);
