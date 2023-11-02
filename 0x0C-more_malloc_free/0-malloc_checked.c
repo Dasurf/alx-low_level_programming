@@ -2,30 +2,28 @@
 #include <stdlib.h>
 
 /**
- * @malloc_checked: function that allocates memory space
- * 					for a programme
- * 
+ * malloc_checked - function that allocates memory space
+ *                  for a programme
  * @b: size of the array
- * @array: the array created
- * 
- * Return: returns address in memory of the array created
+ *
+ * Return: returns array @arr
 */
 
 void *malloc_checked(unsigned int b)
 {
-	void *array;
+	void *arr;
 
 	if (b == 0)
 	{
 		return (NULL);
 	}
 
-	array = malloc(b);
+	arr = malloc(b);
 
-	if (array == NULL)
+	if (arr == NULL)
 	{
 		exit(98);
 	}
 
-	return (array);
+	return (arr);
 }
