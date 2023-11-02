@@ -1,1 +1,1 @@
-C programming starts
+C programming begins
