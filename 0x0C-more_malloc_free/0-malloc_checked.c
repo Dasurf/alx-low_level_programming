@@ -5,11 +5,6 @@ void *malloc_checked(unsigned int b)
 {
 	void *array;
 
-	if (b == 0)
-	{
-		return (NULL);
-	}
-
 	array = malloc(b);
 
 	if (array == NULL)
