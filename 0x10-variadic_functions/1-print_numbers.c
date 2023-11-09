@@ -7,7 +7,7 @@
  * @separator: the character that in between numbers
  * @n: the number of arguments the function takes
  *
- * Return: returns nothing
+ * Return: nothing
 */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
