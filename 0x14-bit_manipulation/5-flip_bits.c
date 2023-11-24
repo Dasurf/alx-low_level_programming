@@ -2,8 +2,10 @@
 
 /**
  * flip_bits - A function that gets number of bits needed to flip
+ *
  * @n: How many bit flips are needed to equal m for n
  * @m: The number to set other equal
+ *
  * Return: number of flipped bits
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
